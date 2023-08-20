@@ -54,7 +54,7 @@ public class CreateAndUpdate {
 
 		// Api hit of SunBase
 		MakingRequestApi makingRequestApi = new MakingRequestApi();
-		String dataFromApi = makingRequestApi.postDataFromApi(listOfHeaders, finalBody, "?cmd=create",
+		String dataFromApi = makingRequestApi.postDataFromApi(listOfHeaders, finalBody, finalCommand,
 				Authorization);
 
 		System.out.println(dataFromApi);
