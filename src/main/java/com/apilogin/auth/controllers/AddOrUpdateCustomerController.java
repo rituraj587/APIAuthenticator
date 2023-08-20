@@ -67,7 +67,7 @@ public class AddOrUpdateCustomerController {
 			
 		
 			
-		String addingStatus = createAndUpdate.addAndUpdateCustomer(body, auth, Authorization, "create");
+		String addingStatus = createAndUpdate.addAndUpdateCustomer(body, auth, Authorization, "?cmd=create");
 			
 	
 		
